@@ -20,3 +20,9 @@ pip3 install -r requirements.txt
  
  
  
+ Run this script using this command 
+ python3 d4rkconsole.py 
+ have fun :)
+ 
+ 
+ 
