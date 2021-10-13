@@ -10,7 +10,7 @@ https://github.com/AlaBouali/bane
 
 
 Here you need to install some requirements to run this tool one is the 
-bane module , os module , and subprocess module
+bane module 
 YOU CAN USE THIS COMMAND 
 -----------------------------------------------
 pip3 install -r requirements.txt 
