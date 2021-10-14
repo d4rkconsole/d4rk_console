@@ -8,7 +8,7 @@ import subprocess
 import datetime
 import pyfiglet
 
-import sys 
+
 
 try:
 	import bane
@@ -51,7 +51,7 @@ def recon():
 	print(Fore.BLUE + "\n\t\t\t [+] Choose Number Between 1 to 4 [+] \n\t\t\t 1 -->> WHOIS_LOOKUP\n\t\t\t 2 -->> SUBDOMAIN_FINDING\n\t\t\t 3 -->> GEO_IP_LOCATION\n\t\t\t 4 -->> WHAT IS YOUR IP LOOKUP\n\t\t\t " )
 	number = int(input(" [+] Enter The Number -->> " ))
 	if number == 1:
-		domain = input(" [+] Enter WEBSITE URL FOR WHOISLOOKUP -->> " , domain )
+		domain = input(" [+] Enter WEBSITE URL FOR WHOISLOOKUP -->> " )
 		print("\t\t\t [+] Doing who is lookup for the website [+] ")
 		print("-"* 100)
 		b = subprocess.call(["whois" , domain])
